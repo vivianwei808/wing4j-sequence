@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for wing4j-sequence-h2" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="wing4j-sequence-h2" />
+      </profile>
+      <profile default="false" name="Annotation profile for wing4j-sequence-mysql" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="wing4j-sequence-mysql" />
+      </profile>
+      <profile default="false" name="Annotation profile for wing4j-sequence-api" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="wing4j-sequence-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wing4j-sequence" target="1.7" />
+      <module name="wing4j-sequence-api" target="1.7" />
+      <module name="wing4j-sequence-h2" target="1.7" />
+      <module name="wing4j-sequence-mysql" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

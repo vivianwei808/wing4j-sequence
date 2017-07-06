@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wing4j-sequence.iml" filepath="$PROJECT_DIR$/wing4j-sequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wing4j-sequence-api/wing4j-sequence-api.iml" filepath="$PROJECT_DIR$/wing4j-sequence-api/wing4j-sequence-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wing4j-sequence-h2/wing4j-sequence-h2.iml" filepath="$PROJECT_DIR$/wing4j-sequence-h2/wing4j-sequence-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wing4j-sequence-mysql/wing4j-sequence-mysql.iml" filepath="$PROJECT_DIR$/wing4j-sequence-mysql/wing4j-sequence-mysql.iml" />
+    </modules>
+  </component>
+</project>
